@@ -9,8 +9,8 @@ address sentinelSearch(List L, infotype x){
     * FS : mengembalikan address elemen dengan ID infotype x jika ditemukan,
     *      mengembalikan NULL jika tidak ditemukan
     */
-
     //-------------your code here-------------
+    // NIM : 
 
 
     //----------------------------------------
@@ -25,6 +25,7 @@ void insertionSort(List &L){
     */
 
     //-------------your code here-------------
+    // NIM : 
 
 
     //----------------------------------------
@@ -39,6 +40,7 @@ void deletebyID(List &L, infotype x) {
 
     address Prec, P;
     //-------------your code here-------------
+    // NIM : 
 
 	
     //----------------------------------------
