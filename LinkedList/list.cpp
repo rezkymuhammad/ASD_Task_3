@@ -5,8 +5,8 @@ void createList(List &L) {
     * FS : first(L) diset Nil
     */
     //-------------your code here-------------
-    // NIM : 
-    
+    // NIM : 1301154155
+    first(L) = Nil;
 
     //----------------------------------------
 }
@@ -35,8 +35,8 @@ void dealokasi(address &P) {
     * FS : menghapus elemen yang ditunjuk oleh P (delete)
     */
     //-------------your code here-------------
-    // NIM : 
-
+    // NIM : 1301154155
+    delete P;
 	
     //----------------------------------------
 }
