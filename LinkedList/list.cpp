@@ -35,7 +35,8 @@ void dealokasi(address &P) {
     * FS : menghapus elemen yang ditunjuk oleh P (delete)
     */
     //-------------your code here-------------
-    // NIM : 
+    // NIM :1301154561
+    delete P;
 
 	
     //----------------------------------------
@@ -59,8 +60,18 @@ void insertLast(List &L, address P) {
     * FS : elemen yang ditunjuk P menjadi elemen terakhir pada List L
     */
     //-------------your code here-------------
-    // NIM : 
-    
+    // NIM : 1301154561
+        if(first(L) == Nil){
+        first(L) = P;
+    } else {
+        address Q = first (L);
+        while (Q->next != Nil){
+            Q = Q->next;
+        }
+        Q->next = P;
+    }
+
+}
 	
     //----------------------------------------
 }
@@ -74,8 +85,16 @@ address findElm(List L, infotype x) {
 
     address P;
     //-------------your code here-------------
-    // NIM : 
-    
+    // NIM : 1301154561
+    address P = first(L)
+    while (next(P) != Nil){
+        if (info(P) == x){
+            cout<<info(P)<<endl;
+            P = next (P);
+        } else {
+            p = next(P);
+        }
+    }
 	
     //----------------------------------------
     return P;
