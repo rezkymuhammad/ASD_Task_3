@@ -5,8 +5,8 @@ void createList(List &L) {
     * FS : first(L) diset Nil
     */
     //-------------your code here-------------
-    // NIM : 
-    
+    // NIM :1301154155
+    first(L) = Nil;
 
     //----------------------------------------
 }
